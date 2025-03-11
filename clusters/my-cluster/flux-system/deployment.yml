@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: my-web-app
-          image: nginx:latest
+          image: nginx:1.21.0  # Updated image version
           ports:
             - containerPort: 80
